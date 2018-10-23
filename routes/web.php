@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PirateController@index');
+Route::get('/{newPirateName}', 'PirateController@name');
+Route::get('/errors', 'PirateController@error');
