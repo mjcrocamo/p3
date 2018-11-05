@@ -22,7 +22,7 @@
 + I had a checkbox that when checked, it reversed the pirate name that was output to the page.
 
 ## Packages
-barryvdh/laravel-debugbar
++ barryvdh/laravel-debugbar
 
 ## Code style divergences
 + None
