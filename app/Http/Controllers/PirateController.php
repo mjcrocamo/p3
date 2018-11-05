@@ -9,6 +9,7 @@ use App;
 class PirateController extends Controller
 {
 
+    /* index page, grabs flashed information about pirate name and sends to view */
     public function index(Request $request)
     {
         return view('pirates.index')->with([
@@ -21,6 +22,7 @@ class PirateController extends Controller
         ]);
     }
 
+    /* function that contains logic to generate a pirate name from form info */
     public function nameProcess(Request $request)
     {
         # Validate the request data

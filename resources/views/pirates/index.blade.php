@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+{{-- index page where user can search for their pirate name --}}}}
 @section('content')
     <h1 class="title">What's in a Pirate Name?</h1>
 
