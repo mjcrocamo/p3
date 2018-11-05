@@ -11,7 +11,7 @@
 
     {{-- CSS global to every page can be loaded here --}}
     <link href='/css/pirates.css' rel='stylesheet'>
-    <title>@yield('title', config('app.name'))</title>
+    <title>What's in a Pirate Name?</title>
 
     {{-- CSS specific to a given page/child view can be included via a stack --}}
     @stack('head')
@@ -20,12 +20,6 @@
 <section id="main">
     @yield('content')
 </section>
-
-{{-- JS global to every page can be loaded here; jQuery included just as an example --}}
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous'></script>
-
-{{-- JS specific to a given page/child view can be included via a stack --}}
-@stack('body')
 
 </body>
 </html>
