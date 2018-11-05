@@ -1,18 +1,31 @@
 # Project 3
 + By: Maggie Crocamo
-+ Production URL: <http://p3.maggiecroc11.com>
++ Production URL: <http://p3.maggiecroc11.me>
 
-## Outside resources
-*Your list of outside resources go here*
+## Outside Resources
+##### The photo in the link below was used to come up with some of the random names used to generate the pirate names
++ https://www.pinterest.com/pin/59532026307187179/?lp=true
+
+#### Sources for Images
++ https://pixabay.com/en/penguin-pirate-tux-animal-bandana-161356/
++ https://pixabay.com/en/pirate-crossbones-skull-flag-bones-47705/
++ https://pixabay.com/en/bird-cartoon-character-parrot-1297727/
++ https://pixabay.com/en/pirate-skull-bone-hat-tobacco-354246/
++ https://www.dreamstime.com/stock-photo-aged-pirates-treasure-map-background-illustration-image71899213
+
+#### CSS Resources
++ https://css-tricks.com/perfect-full-page-background-image
 
 ## 3 Unique inputs
-*You don't have to list all inputs, just 3 unique ones. The following is an example of what I'd put if my project was the xkcd Password Generator: (1) Text input to indicate number of words in password, (2) Checkbox to indicate whether to include a number (3) Dropdown to indicate what symbol to include*
++ I had a text input for the user's first name and last name. The first letter of these names is used to help generate their pirate name 
++ I had a radio button for the user to submit their birthday month.
++ I had a checkbox that when checked, it reversed the pirate name that was output to the page.
 
 ## Packages
-*List the name of any packages you add to your project that do not come with Laravel by default; this should include, but is not limited to, barryvdh/laravel-debugbar*
+barryvdh/laravel-debugbar
 
 ## Code style divergences
-*list any divergences from PSR-1/PSR-2 and course guidelines on code style*
++ None
 
 ## Notes for instructor
-*Any notes for me to refer to while grading; if none, omit this section*
++ The only bug I noticed was that I couldn't figure out how to have the chosen month (radio button) left checked off when a validation error occured on form submission. I used the old keyword with every other input and it worked as planned but I was unsure how to do this with the month buttons. 
