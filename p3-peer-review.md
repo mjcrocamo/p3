@@ -24,7 +24,7 @@ Their routes file was completely correct. They only had three routes that refere
 
 ## 4. Code: Views
 
-Template inheritance is used. There's a master layout file and two other view files which extend the master layout file. 
++ Template inheritance is used. There's a master layout file and two other view files which extend the master layout file. 
 + There were some separation of concerns issues. There's some javascript in the html part of the view files which should really all be in a separate JS file. You can always grab elements from the DOM you need using JS and don't need to put any JS functions in the HTML
 + Everything with blade was done very well
 + They did use blade techniques that I didn't use in my own project but I was familiar with them
