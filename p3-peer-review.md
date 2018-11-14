@@ -30,7 +30,6 @@ Their routes file was completely correct. They only had three routes that refere
 + They did use blade techniques that I didn't use in my own project but I was familiar with them
 
 ## 5. Code: General
-Address as many of the following points as applicable:
 
 + The PHP code style looks to be consistent with the course notes.
 + I think best practices that we discussed in class were followed.
