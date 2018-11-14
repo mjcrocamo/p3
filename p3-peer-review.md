@@ -33,7 +33,6 @@ Their routes file was completely correct. They only had three routes that refere
 
 + The PHP code style looks to be consistent with the course notes.
 + I think best practices that we discussed in class were followed.
-+ Are there aspects of the code that you feel were not self-evident and would benefit from comments?
 + I think the code was well commented. More steps could have been commented in the main controller method and some of the JS methods.
 + Parts of the code that were interesting were the Xpath query PHP code in the controller method create-resume. They looked up how to do something useful and used it in their app which I think is very cool.
 + The code is straight forward. It was a little hard to follow sometimes when JS functions were called in the HTML views themselves.
